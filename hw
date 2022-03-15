@@ -1,0 +1,14 @@
+current_age=22
+year_to_retirement=43
+age=current_age+year_to_retirement
+
+balance=0
+deposit=5000
+rate=14.47
+
+
+while balance < retirement_value:
+  balance += deposit
+  age += 1
+balance= deposit*(1+rate/100)**year_to_retirement
+print("I will have {} at {} years old.".format(balance, age))
